@@ -1,5 +1,7 @@
 table,
-td {}
+td {
+    border-collapse: collapse;
+}
 
 tr:nth-child(even) {
     background-color: #f2f2f2;
@@ -7,6 +9,7 @@ tr:nth-child(even) {
 
 td:nth-child(odd) {
     text-align: center;
+    
 }
 
 td:nth-child(4) {
@@ -14,5 +17,5 @@ td:nth-child(4) {
 }
 th {
     background-color: #4CAF50;
-    color: white;
+    color: black;
 }
