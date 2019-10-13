@@ -8,14 +8,14 @@ td {
 }
 table{
     height: 50px; 
-    width: 900px; 
+    width: 875px; 
     margin-left: auto; 
     margin-right: auto;
     
     
 }
 td:nth-child(1){
-    width: 100px;
+    width: 100px;=
 }
 td:nth-child(2){
     width: 200px;
