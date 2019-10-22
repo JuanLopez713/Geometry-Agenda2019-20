@@ -34,3 +34,8 @@ th {
     background-color: darkgreen;
     color: white;
 }
+
+#links{
+    
+  display: none;
+}

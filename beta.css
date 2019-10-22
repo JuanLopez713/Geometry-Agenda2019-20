@@ -8,24 +8,13 @@ td {
 }
 table{
     height: 50px; 
-    width: 850px; 
+    width: 500px; 
     margin-left: auto; 
     margin-right: auto;
     
     
 }
-td:nth-child(1){
-    width: 100px;=
-}
-td:nth-child(2){
-    width: 200px;
-}
-td:nth-child(3){
-    width: 200px;
-}
-td:nth-child(4){
-    width: 200px;
-}
+
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
@@ -46,7 +35,4 @@ th {
     color: white;
 }
 
-.a{
-    
-    color: darkorange;
-}
+
