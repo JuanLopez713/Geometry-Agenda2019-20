@@ -3,8 +3,7 @@ body{
     background-color: white;
     
 }
-table,
-td {
+table {
     border-collapse: collapse;
 }
 table{
@@ -16,6 +15,11 @@ table{
     
 }
 
+    
+    
+td{
+    border-bottom:2px solid black;
+}
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
@@ -33,10 +37,57 @@ td:nth-child(4) {
 }
 th {
     background-color: darkgreen;
+    position: sticky;
+    top: 0;
     color: white;
 }
 
 #links{
     
   display: none;
+}
+
+.a{
+    background-color: darkorange;
+    color: white;
+}
+
+.c{
+    background-color: gold;
+    color: black;
+}
+
+.p{
+    
+    background-color: deepskyblue;
+    color:bl;
+}
+.b{
+    
+    background-color: rebeccapurple;
+    color: white;
+}
+.g{
+    background-color: greenyellow;
+    color:black;
+}
+.l{
+    background-color: red;
+    color: white;
+}
+.t{
+    background-color: hotpink;
+    color: white;
+}
+
+.shortcut{
+    cursor:pointer; 
+    background-color:orange; 
+}
+.current{
+    background-color:red;
+}
+.future{
+    background-color: gray;
+    color:gray;
 }

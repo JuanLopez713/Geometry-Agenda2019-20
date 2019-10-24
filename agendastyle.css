@@ -2,9 +2,8 @@ body{
     
     background-color: darkgreen;
 }
-table,
-td {
-    border-collapse: collapse;
+table {
+ border-collapse: collapse;
 }
 table{
     height: 50px; 
@@ -13,6 +12,9 @@ table{
     margin-right: auto;
     
     
+}
+td{
+    border-bottom:2px solid darkgreen;
 }
 td:nth-child(1){
     width: 100px;
@@ -44,10 +46,52 @@ td:nth-child(4) {
 th {
     height: 50px;
     background-color: darkgreen;
+    position: sticky;
+    top: 0;
     color: white;
+    
 }
 
 .a{
+    background-color: darkorange;
+    color: white;
+}
+
+.c{
+    background-color: gold;
+    color: black;
+}
+
+.p{
     
-    color: darkorange;
+    background-color: deepskyblue;
+    color:black;
+}
+.b{
+    
+    background-color: rebeccapurple;
+    color: white;
+}
+.g{
+    background-color: greenyellow;
+    color:black;
+}
+.l{
+    background-color: red;
+    color: white;
+}
+.t{
+    background-color: hotpink;
+    color: white;
+}
+.shortcut{
+    cursor:pointer; 
+    background-color:orange; 
+}
+.current{
+    background-color:red;
+}
+.future{
+    background-color: gray;
+    color:gray;
 }
