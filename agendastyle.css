@@ -24,6 +24,7 @@ td {
 
 td:nth-child(1) {
     padding-top: 20px;
+
     vertical-align: text-top;
     width: 75px;
 }
@@ -140,7 +141,7 @@ th {
 }
 
 .announcement {
-    background-color: white;
+   
     text-align: left;
 
     padding: 20px;
