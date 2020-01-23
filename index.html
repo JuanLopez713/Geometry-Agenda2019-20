@@ -32,7 +32,8 @@
                     </tr>
                     <!--                    ADD NEW-->
                      <tr>
-                        <td><strong>WED<br /> 1/22</strong></td>
+                        <td rowspan="2" id="parent"><strong>WED<br /> 1/22 <div id="popup" style="display: none">Hello!</div></strong></td>
+                        
                         <td>
                            <li><span class="l">CHAPTER 5.4: </span><br />Medians and Altitudes</li>
                         </td>
@@ -49,6 +50,20 @@
                             </p>
 
                         </td>
+                    </tr>
+                    <tr>
+                        
+                        <td style="text-align: left" class="announcement" colspan="3">
+                             <strong>CLASS NEWS</strong>
+                           <li><span class="c">CFI #1-7:</span> On Aeries, you'll see this assignment say 55 proofs due along with a comment "49/55 Proofs Complete". Proofs assigned in the previous semester are still due, so you must complete them by the end of this semester to receive full credit. Don't procrastinate!</li>
+                            <br>
+                             <strong>BIRBUCK NEWS</strong>
+                              <li><span class="c">GAMIFICATION [+1 BB]:</span> On January 31, stop by Room 102 from 3pm-5pm to play video games!  </li>
+                             <li><span class="c">PUZZLE #9 [+2 BB]:</span> Answer the two questions for +2 BB before Friday at midnight!</li>
+                            <li><span class="c">GEOMETRY PASSWORD MANAGER [+1BB]:</span> Fill in the assignment found on Schoology.</li>
+                            <li><span class="c">NEW RULE:</span> Starting next week, asking for your username or resetting passwords cost 1 Birbuck.</li>
+                        </td>
+                        
                     </tr>
                     <tr>
                         <td><strong>MON<br /> 1/20</strong></td>
@@ -180,5 +195,12 @@
         </tbody>
     </table>
 </body>
-
+<script>
+    var e = document.getElementById('parent');
+e.onmouseover = function() {
+  document.getElementById('popup').style.display = 'block';
+}
+e.onmouseout = function() {
+  document.getElementById('popup').style.display = 'none';
+}</script>
 </html>
