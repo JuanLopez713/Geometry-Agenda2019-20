@@ -1,0 +1,32 @@
+.a{
+    background-color: darkorange;
+    color: white;
+}
+
+.c{
+    background-color: gold;
+    color: black;
+}
+
+.p{
+    
+    background-color: deepskyblue;
+    color:black;
+}
+.b{
+    
+    background-color: rebeccapurple;
+    color: white;
+}
+.g{
+    background-color: greenyellow;
+    color:black;
+}
+.l{
+    background-color: red;
+    color: white;
+}
+.t{
+    background-color: hotpink;
+    color: white;
+}
