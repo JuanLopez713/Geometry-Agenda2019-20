@@ -15,7 +15,7 @@ top:0px;
 }
 
 .maindiv{
-    background-color: red;
+   border: 1px solid darkgreen;
     height:250px;
     overflow: scroll;
      border-bottom-left-radius: 25px;
@@ -78,13 +78,12 @@ th {
     
     height: 50px;
     background-color: darkgreen;
-/*    position: sticky;*/
-    top: 0;
     color: white;
 
 }
 
 .A1{
+    padding: 0em;
     width: 10%;
 }
 .A2{
