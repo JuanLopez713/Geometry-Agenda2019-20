@@ -7,16 +7,24 @@ body {
 
 table {
      border-collapse: collapse;
-    height: 50px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-
+top:0px;
 
 }
-.maintable{
-	
-	top: 0px;
+
+.maindiv{
+    background-color: red;
+    height:300px;
+    overflow: scroll;
+     border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.tweetnewsgeometry{
+    height:200px;
+    overflow: scroll;
+    border-radius: 25px;
 }
 
 td {
@@ -26,9 +34,6 @@ td {
 
 td:nth-child(1) {
     padding-top: 20px;
-
-/*   align-content: stretch;*/
-/*    vertical-align: text-top;*/
     width: 75px;
 }
 
@@ -73,7 +78,7 @@ th {
     
     height: 50px;
     background-color: darkgreen;
-    position: sticky;
+/*    position: sticky;*/
     top: 0;
     color: white;
 
