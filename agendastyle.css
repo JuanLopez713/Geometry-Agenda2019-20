@@ -13,15 +13,23 @@ table {
 top:0px;
 
 }
+.superdiv{
+    border: 5px solid darkgreen;
+    border-radius: 25px;
+    overflow: hidden;
+}
 
 .maindiv{
-   border: 1px solid darkgreen;
+   
     height:250px;
     overflow: scroll;
+/*
      border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+*/
 }
 .tweetnewsgeometry{
+    border: 5px solid midnightblue;
     height:200px;
     overflow: scroll;
     border-radius: 25px;
@@ -91,13 +99,13 @@ th {
 }
 
 th:nth-child(1){
-    border-top-left-radius: 25px;
+  
 }
 th:nth-child(4){
-    border-top-right-radius: 25px;
+/*    border-top-right-radius: 25px;*/
 }
 #newsheader{
-border-top-right-radius: 25px;
+
     position: relative;
 }
 
