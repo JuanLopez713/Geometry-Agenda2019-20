@@ -16,6 +16,7 @@ table {
     border: 5px solid darkgreen;
     border-radius: 25px;
     overflow: hidden;
+    padding: 0px;
 }
 
 .maindiv{
