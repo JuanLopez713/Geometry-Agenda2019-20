@@ -29,7 +29,7 @@
     
 <script>// Get the modal
     
-    var folder = "/MathHWArchive/MathProblems/";
+    var folder = "https://raw.githubusercontent.com/JuanLopez713/Geometry-Agenda2019-20/gh-pages/MathHWArchive/MathProblems/";
 
 $.ajax({
     url : folder,
@@ -56,13 +56,12 @@ $.ajax({
 var img = actualimage;
 var modalImg = document.getElementById("popupimage");
 var captionText = document.getElementById("caption");
-    
-   
+
 img.onclick = function(){
     console.log(this.fileName);
     var img = actualimage.id;
     modal.style.display = "block";
-    popupimg = "/MathHWArchive/MathProblems/Solutions/"+ img +"B.jpg";
+    popupimg = "https://raw.githubusercontent.com/JuanLopez713/Geometry-Agenda2019-20/gh-pages/MathHWArchive/MathProblems/Solutions/"+ img +"B.jpg";
     modalImg.src = popupimg;
     captionText.innerHTML = this.alt;
 }
