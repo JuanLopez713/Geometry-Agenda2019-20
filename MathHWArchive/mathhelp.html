@@ -29,7 +29,7 @@
     
 <script>// Get the modal
     
-    var folder = "MathProblems/";
+    var folder = "/MathHWArchive/MathProblems/";
 
 $.ajax({
     url : folder,
@@ -37,6 +37,7 @@ $.ajax({
         $(data).find("a").attr("href", function (i, val) {
             if( val.match(/\.(jpe?g|png|gif)$/) ) { 
                 var imgid=i-4;
+                console.log(val);
                 
                 $(".problemsets").prepend( "<div class='responsive'><div class='gallery'><img id='"+imgid+"'src=" + val + " width='300' onclick='getId(this)'>" );
             } 
