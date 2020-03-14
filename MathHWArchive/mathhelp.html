@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>GEOMETRY HW HELP ARCHIVE</title>
+     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link rel="stylesheet" href="mathhelpstyle.css">
+    
+
+</head>
+
+<body>
+   <h2>PHS Geometry Homework Help Archive</h2>
+<h3>Find a problem that is similar to the one you are stuck on. Click to see the solution!</h3>
+   
+<div class="problemsets"></div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close" onclick="closeIt()">&times;</span>
+  <img class="modal-content" id="popupimage">
+  <div id="caption"></div>
+</div>
+    
+    
+<script>// Get the modal
+    
+    var folder = "MathProblems/";
+
+$.ajax({
+    url : folder,
+    success: function (data) {
+        $(data).find("a").attr("href", function (i, val) {
+            if( val.match(/\.(jpe?g|png|gif)$/) ) { 
+                var imgid=i-4;
+                
+                $(".problemsets").prepend( "<div class='responsive'><div class='gallery'><img id='"+imgid+"'src=" + val + " width='300' onclick='getId(this)'>" );
+            } 
+        });
+    }
+});
+    var modal = document.getElementById('myModal');
+
+    function getId(actualimage){
+        
+    
+
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+        
+var img = actualimage;
+var modalImg = document.getElementById("popupimage");
+var captionText = document.getElementById("caption");
+    
+   
+img.onclick = function(){
+    console.log(this.fileName);
+    var img = actualimage.id;
+    modal.style.display = "block";
+    popupimg = "/MathHWArchive/MathProblems/Solutions/"+ img +"B.jpg";
+    modalImg.src = popupimg;
+    captionText.innerHTML = this.alt;
+}
+    }
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+function closeIt() { 
+    modal.style.display = "none";
+}</script>
+</body></html>
